@@ -1,0 +1,39 @@
+.place {
+    margin: 0 0 80px;
+    display: grid;
+    grid-template-columns: 460px, 1fr;
+    gap: 48px 40px;
+    grid-template-areas: 
+    "heading URL"
+    "img text";
+}
+
+.place:last-child {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: 440px, 1fr;
+        gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .place {
+        grid-template-columns: 352px, 1fr;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .place {
+        grid-template-areas: 
+        "heading"
+        "URL"
+        "img"
+        "text";
+        grid-template-columns: 288px, 1fr;
+        gap: 12px;
+    }
+}

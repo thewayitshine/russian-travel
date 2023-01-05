@@ -1,0 +1,12 @@
+.header__lang-link_active {
+    max-width: 30px;
+    max-height: 28px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link_active {
+        max-width: 22px;
+        max-height: 20px;
+    }
+}
