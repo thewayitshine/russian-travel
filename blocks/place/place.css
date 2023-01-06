@@ -1,7 +1,7 @@
 .place {
     margin: 0 0 80px;
     display: grid;
-    grid-template-columns: 460px, 1fr;
+    grid-template-columns: 460px 1fr;
     gap: 48px 40px;
     grid-template-areas: 
     "heading URL"
@@ -14,26 +14,28 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: 440px, 1fr;
+        grid-template-columns: 440px 1fr;
         gap: 48px 32px;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: 352px, 1fr;
-        gap: 16px;
+        grid-template-columns: 352px 1fr;
+        gap: 48px 15px;
+        margin-bottom: 71px;
     }
 }
 
 @media screen and (max-width: 578px) {
     .place {
+        margin-bottom: 52px;
         grid-template-areas: 
         "heading"
         "URL"
         "img"
         "text";
-        grid-template-columns: 288px, 1fr;
-        gap: 12px;
+        grid-template-columns: 320px 1fr;
+        gap: 31px 0;
     }
 }

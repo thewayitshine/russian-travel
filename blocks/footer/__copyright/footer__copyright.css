@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 768px) {
     .footer__copyright {
+        padding-top: 3px;
         line-height: 14px;
-        align-items: left;
     }
 }
