@@ -1,4 +1,5 @@
 .place__paragraph {
+  max-width: 484px;
     margin: 0 0 26px;
     font-size: 18px;
     font-weight: 400;
@@ -9,13 +10,13 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1090px) {
     .place__paragraph {
         padding-right: 15px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .place__paragraph {
         margin-bottom: 25px;
         padding: 0;

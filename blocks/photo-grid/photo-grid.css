@@ -3,7 +3,7 @@
     padding: 0 48px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .photo-grid {
         padding-left: 24px;
         padding-right: 24px;
