@@ -3,19 +3,19 @@
     max-width: 460px;
 }
 
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1190px) {
     .place__image {
         max-width: 440px;
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .place__image {
         max-width: 340px;
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 760px) {
     .place__image {
         max-width: 100%;
     }

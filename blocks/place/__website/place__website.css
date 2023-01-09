@@ -3,7 +3,7 @@
     align-self: flex-end;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .place__website {
         padding-bottom: 2px;
     }
