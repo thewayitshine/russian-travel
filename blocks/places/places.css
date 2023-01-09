@@ -22,12 +22,11 @@
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 720px) {
     .places {
         padding-right: 16px;
         padding-left: 16px;
         padding-bottom: 66px;
-        align-items: center;
     }
 }
 
